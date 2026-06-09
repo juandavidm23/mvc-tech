@@ -4,7 +4,6 @@ import Timeline from '../components/about/Timeline';
 import MissionVision from '../components/about/MissionVision';
 import TeamCard from '../components/about/TeamCard';
 import Values from '../components/about/Values';
-import TechStack from '../components/about/TechStack';
 import ClosingInsight from '../components/about/ClosingInsight';
 import Pill from '../components/ui/Pill';
 
@@ -54,7 +53,6 @@ const About = () => {
       </section>
 
       <Values />
-      <TechStack />
       <ClosingInsight />
     </main>
   );

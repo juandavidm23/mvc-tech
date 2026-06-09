@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Pill from '../ui/Pill';
 import Button from '../ui/Button';
-import { WHATSAPP_URL } from '../../config/contact';
+import { WHATSAPP_URL, EMAIL } from '../../config/contact';
 
 // ─── EmailJS credentials ────────────────────────────────────────────────────
 // 1. Crea una cuenta en https://www.emailjs.com
@@ -53,7 +53,7 @@ const ContactForm = () => {
             <ul className="flex flex-col gap-3">
               <li className="font-body text-[15px] text-graphite">📍 Popayán, Colombia</li>
               <li className="font-body text-[15px] text-graphite">
-                ✉️ <a href="mailto:hola@mvctech.co" className="hover:text-indigo transition-colors">hola@mvctech.co</a>
+                ✉️ <a href={`mailto:${EMAIL}`} className="hover:text-indigo transition-colors">{EMAIL}</a>
               </li>
               <li className="font-body text-[15px] text-graphite">
                 💬{' '}

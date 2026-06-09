@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Hero from '../components/home/Hero';
-import Marquee from '../components/home/Marquee';
 import ProductCard from '../components/home/ProductCard';
 import TrustSection from '../components/home/TrustSection';
 import ContactForm from '../components/home/ContactForm';
@@ -14,8 +13,6 @@ const Home = () => {
   return (
     <main>
       <Hero />
-      <Marquee />
-
       {/* PORTAFOLIO Y SERVICIOS */}
       <section id="productos" className="bg-base py-[80px] md:py-[120px] px-5 lg:px-[80px]">
         <div className="max-w-[1200px] mx-auto">

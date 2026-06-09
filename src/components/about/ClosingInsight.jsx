@@ -14,9 +14,6 @@ const ClosingInsight = () => {
           El empresario payanés no compra tecnología. Compra la capacidad de escalar su negocio sin perder el control.
         </p>
 
-        <p className="font-mono text-[13px] text-gray text-center">
-          — Juan David Moreno, Co-fundador MVC Tech
-        </p>
       </div>
     </section>
   );
