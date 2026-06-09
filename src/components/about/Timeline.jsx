@@ -30,7 +30,7 @@ const Timeline = () => {
   ];
 
   return (
-    <section className="bg-surface py-[60px] md:py-[100px] px-5 lg:px-[80px]">
+    <section className="bg-base py-[60px] md:py-[100px] px-5 lg:px-[80px]">
       <div className="mb-16">
         <Pill text="Nuestra historia" className="mb-5" />
         <h2 className="font-display font-extrabold text-[36px] md:text-[52px] text-graphite">

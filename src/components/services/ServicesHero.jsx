@@ -3,7 +3,7 @@ import Pill from '../ui/Pill';
 
 const ServicesHero = () => {
   return (
-    <section className="min-h-[70vh] aurora-bg-subtle flex flex-col justify-center items-center pt-[160px] pb-[80px] px-5 lg:px-[80px] text-center">
+    <section className="min-h-[70vh] bg-base flex flex-col justify-center items-center pt-[160px] pb-[80px] px-5 lg:px-[80px] text-center">
       <div className="animate-[fade-in_1s_ease-out_100ms_both]">
         <Pill text="Servicios" className="mb-8" />
       </div>

@@ -11,7 +11,7 @@ const MissionVision = () => {
         <div className="md:pr-[60px]">
           <span className="font-mono text-[12px] text-gray uppercase">Misión</span>
           <p className="font-display font-extrabold text-[28px] text-surface leading-[1.3] mt-5">
-            Que un negocio en Popayán pueda tener el mismo software que usan las empresas en Bogotá — sin necesitar el presupuesto de Bogotá.
+            Brindar soluciones tecnológicas accesibles y adaptadas a las necesidades de pequeños negocios y emprendedores, impulsando su transformación digital mediante herramientas prácticas y acompañamiento cercano, que les permitan crecer de manera más eficiente y competitiva.
           </p>
         </div>
 

@@ -33,7 +33,7 @@ const About = () => {
             name="Juan David Moreno"
             role="Full Stack Developer · PM"
             stack={['React', 'Spring Boot', 'AI', 'Solidity']}
-            quote="Construyo software de día y aprendo de noche. Co-founder & el que da la cara."
+            quote="El objetivo nunca es el software, es el valor que le entrega al cliente."
           />
           <TeamCard
             initials="JC"

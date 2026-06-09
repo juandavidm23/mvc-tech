@@ -3,7 +3,7 @@ import Pill from '../ui/Pill';
 
 const AboutHero = () => {
   return (
-    <section className="min-h-[80vh] aurora-bg flex flex-col justify-center items-center pt-[160px] pb-[80px] px-5 lg:px-[80px] text-center">
+    <section className="min-h-[80vh] bg-base flex flex-col justify-center items-center pt-[160px] pb-[80px] px-5 lg:px-[80px] text-center">
       <div className="animate-[fade-in_1s_ease-out_100ms_both]">
         <Pill text="Fundada en Popayán · Noviembre 2024" className="mb-8" />
       </div>
