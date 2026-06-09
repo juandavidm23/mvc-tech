@@ -30,30 +30,30 @@ const Timeline = () => {
   ];
 
   return (
-    <section className="bg-cream py-[60px] md:py-[100px] px-5 lg:px-[80px]">
+    <section className="bg-surface py-[60px] md:py-[100px] px-5 lg:px-[80px]">
       <div className="mb-16">
         <Pill text="Nuestra historia" className="mb-5" />
-        <h2 className="font-display font-extrabold text-[36px] md:text-[52px] text-brand-black">
+        <h2 className="font-display font-extrabold text-[36px] md:text-[52px] text-graphite">
           DE UN WHATSAPP A PRODUCTOS REALES.
         </h2>
       </div>
 
       <div className="relative pl-6 md:pl-12 max-w-[800px]">
         {/* Línea vertical */}
-        <div className="absolute left-[24px] top-2 bottom-0 w-[2px] bg-cream-dark"></div>
+        <div className="absolute left-[24px] top-2 bottom-0 w-[2px] bg-gray-light"></div>
 
         <div className="flex flex-col gap-14">
           {milestones.map((item, index) => (
             <div key={index} className="relative pl-6">
               {/* Punto en línea */}
               <div className={`absolute -left-[31px] md:-left-[55px] top-1 rounded-full ${
-                item.isOpen 
-                  ? 'w-[14px] h-[14px] bg-cream border-2 border-brand-black -translate-x-[1px]' 
-                  : 'w-[12px] h-[12px] bg-brand-black'
+                item.isOpen
+                  ? 'w-[14px] h-[14px] bg-surface border-2 border-graphite -translate-x-[1px]'
+                  : 'w-[12px] h-[12px] bg-graphite'
               }`}></div>
-              
+
               <div className="font-mono text-[12px] text-gray mb-1">{item.date}</div>
-              <h3 className="font-display font-extrabold text-[22px] text-brand-black mb-2">{item.title}</h3>
+              <h3 className="font-display font-extrabold text-[22px] text-graphite mb-2">{item.title}</h3>
               <p className="font-body font-normal text-[16px] text-gray">{item.text}</p>
             </div>
           ))}

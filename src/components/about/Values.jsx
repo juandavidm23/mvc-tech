@@ -11,10 +11,10 @@ const Values = () => {
   ];
 
   return (
-    <section className="bg-cream-dark py-[60px] md:py-[100px] px-5 lg:px-[80px]">
+    <section className="bg-surface py-[60px] md:py-[100px] px-5 lg:px-[80px]">
       <div className="mb-16">
         <Pill text="Cultura" className="mb-5" />
-        <h2 className="font-display font-extrabold text-[36px] md:text-[52px] text-brand-black">
+        <h2 className="font-display font-extrabold text-[36px] md:text-[52px] text-graphite">
           LO QUE NOS GUÍA.
         </h2>
       </div>
@@ -25,7 +25,7 @@ const Values = () => {
             <span className="font-display font-extrabold text-[48px] text-gray-light leading-none">
               {item.num}
             </span>
-            <h3 className="font-display font-extrabold text-[20px] text-brand-black mt-4">
+            <h3 className="font-display font-extrabold text-[20px] text-graphite mt-4">
               {item.title}
             </h3>
             <p className="font-body font-normal text-[15px] text-gray mt-2">

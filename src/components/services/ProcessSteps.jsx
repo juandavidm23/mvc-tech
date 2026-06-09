@@ -20,8 +20,8 @@ const ProcessSteps = () => {
   ];
 
   return (
-    <section className="bg-brand-black py-[60px] md:py-[80px] px-5 lg:px-[80px]">
-      <h2 className="font-display font-extrabold text-[36px] text-cream text-center mb-14 uppercase tracking-wide">
+    <section className="bg-graphite py-[60px] md:py-[80px] px-5 lg:px-[80px]">
+      <h2 className="font-display font-extrabold text-[36px] text-surface text-center mb-14 uppercase tracking-wide">
         ASÍ TRABAJAMOS CON CADA CLIENTE.
       </h2>
 
@@ -30,15 +30,14 @@ const ProcessSteps = () => {
           <React.Fragment key={index}>
             <div className="flex-1 w-full lg:w-auto">
               <span className="font-mono text-[13px] text-gray">{step.num}</span>
-              <h3 className="font-display font-extrabold text-[24px] text-cream mt-3 mb-2">{step.title}</h3>
+              <h3 className="font-display font-extrabold text-[24px] text-surface mt-3 mb-2">{step.title}</h3>
               <p className="font-body font-normal text-[16px] text-gray leading-relaxed max-w-sm">
                 {step.text}
               </p>
             </div>
-            {/* Arrow separator (hidden on mobile) */}
             {index < steps.length - 1 && (
               <div className="hidden lg:flex items-center justify-center flex-shrink-0 px-4">
-                <span className="font-display font-extrabold text-[32px] text-brand-dark2">&rarr;</span>
+                <span className="font-display font-extrabold text-[32px] text-white/20">&rarr;</span>
               </div>
             )}
           </React.Fragment>

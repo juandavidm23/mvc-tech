@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   * {
     margin: 0;
@@ -15,29 +14,28 @@
   }
 
   body {
-    font-family: 'DM Sans', sans-serif;
-    background-color: #F7F4EF;
-    color: #0D0D0D;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FAFAFA;
+    color: #111318;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 }
 
 @layer utilities {
+  /* Subtle brand gradient — indigo top-left, coral bottom-right */
   .aurora-bg {
     background:
-      radial-gradient(ellipse 80% 60% at 20% 30%, rgba(196, 181, 253, 0.5), transparent),
-      radial-gradient(ellipse 60% 70% at 80% 20%, rgba(249, 168, 212, 0.4), transparent),
-      radial-gradient(ellipse 70% 50% at 50% 80%, rgba(191, 219, 254, 0.4), transparent),
-      #F7F4EF;
+      radial-gradient(ellipse 70% 60% at 15% 20%, rgba(91, 46, 255, 0.07), transparent),
+      radial-gradient(ellipse 50% 50% at 85% 75%, rgba(255, 79, 46, 0.05), transparent),
+      #FAFAFA;
   }
 
   .aurora-bg-subtle {
     background:
-      radial-gradient(ellipse 80% 60% at 20% 30%, rgba(196, 181, 253, 0.3), transparent),
-      radial-gradient(ellipse 60% 70% at 80% 20%, rgba(249, 168, 212, 0.24), transparent),
-      radial-gradient(ellipse 70% 50% at 50% 80%, rgba(191, 219, 254, 0.24), transparent),
-      #F7F4EF;
+      radial-gradient(ellipse 70% 60% at 15% 20%, rgba(91, 46, 255, 0.04), transparent),
+      radial-gradient(ellipse 50% 50% at 85% 75%, rgba(255, 79, 46, 0.03), transparent),
+      #FAFAFA;
   }
 
   .reveal {
@@ -53,20 +51,20 @@
   }
 }
 
-/* Scrollbar styling */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #F7F4EF;
+  background: #FAFAFA;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #C4C0B8;
+  background: #E0DDD8;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #6B6B6B;
+  background: #636366;
 }

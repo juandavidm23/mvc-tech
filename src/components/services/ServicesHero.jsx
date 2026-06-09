@@ -9,14 +9,10 @@ const ServicesHero = () => {
       </div>
 
       <div className="max-w-[900px] animate-[fade-in_1s_ease-out_200ms_both]">
-        <h1 className="font-display font-extrabold text-[44px] md:text-[72px] text-brand-black leading-[1.05] tracking-[-0.02em]">
-          LO QUE NECESITAS
-        </h1>
-        <h1 className="font-display font-extrabold text-[44px] md:text-[72px] text-gray leading-[1.05] tracking-[-0.02em]">
-          YA LO HEMOS CONSTRUIDO —
-        </h1>
-        <h1 className="font-display font-extrabold text-[44px] md:text-[72px] text-brand-black leading-[1.05] tracking-[-0.02em]">
-          O LO CONSTRUIMOS PARA TI.
+        <h1 className="font-display font-extrabold text-[44px] md:text-[72px] leading-[1.05] tracking-[-0.02em]">
+          <span className="block text-graphite">LO QUE NECESITAS</span>
+          <span className="block text-gray">YA LO HEMOS CONSTRUIDO —</span>
+          <span className="block text-graphite">O LO CONSTRUIMOS PARA TI.</span>
         </h1>
       </div>
 

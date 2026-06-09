@@ -20,10 +20,10 @@ const About = () => {
       <MissionVision />
 
       {/* SECCIÓN 5 — EL EQUIPO */}
-      <section className="bg-cream py-[60px] md:py-[100px] px-5 lg:px-[80px]">
+      <section className="bg-surface py-[60px] md:py-[100px] px-5 lg:px-[80px]">
         <div className="mb-16">
           <Pill text="El equipo" className="mb-5" />
-          <h2 className="font-display font-extrabold text-[36px] md:text-[52px] text-brand-black leading-tight">
+          <h2 className="font-display font-extrabold text-[36px] md:text-[52px] text-graphite leading-tight">
             TRES INGENIEROS. UN SOLO OBJETIVO.
           </h2>
         </div>
