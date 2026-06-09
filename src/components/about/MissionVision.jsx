@@ -11,7 +11,7 @@ const MissionVision = () => {
         <div className="md:pr-[60px]">
           <span className="font-mono text-[12px] text-gray uppercase">Misión</span>
           <p className="font-display font-extrabold text-[28px] text-surface leading-[1.3] mt-5">
-            Brindar soluciones tecnológicas accesibles y adaptadas a las necesidades de pequeños negocios y emprendedores, impulsando su transformación digital mediante herramientas prácticas y acompañamiento cercano, que les permitan crecer de manera más eficiente y competitiva.
+            Brindar soluciones tecnológicas accesibles para las necesidades de pequeños negocios y emprendedores, impulsando su transformación digital mediante herramientas para crecer de manera más eficiente y competitiva.
           </p>
         </div>
 
